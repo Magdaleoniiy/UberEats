@@ -4,10 +4,88 @@
     border: 0;
     border-bottom: 1px solid #979797;
     color: #979797;
+    margin-bottom: 56px;
+    margin-top: 56px;
 }
 
 .search:focus {
     outline: none;
     color: #c5c3c3;
+}
+
+.restaurant-list {
+    margin-bottom: 64px;
+}
+
+.restaurant-card {
+    margin-bottom: 36px;
+}
+
+.restaurant-card-img {
+    height: 256px;
+    width: 308px;
+    background-color: lightgrey;
+    margin-bottom: 16px;
+    background-size: cover;
+}
+
+.restaurant-list-title {
+    font-size: 22px;
+    font-weight: 450;
+    margin-bottom: 16px;
+}
+
+.description-title {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 450;
+    margin: 0;
+    color: #1D1D1D;
+}
+
+.description-food-type {
+    line-height: 21px;
+    font-size: 14px;
+    margin: 0;
+    color: #626262;
+}
+
+.description-delivery-time {
+    line-height: 21px;
+    font-size: 13px;
+    margin: 0;
+    color: #1D1D1D;
+}
+
+.restaurant-card-mac .restaurant-card-img{
+    background-image: url('img/mac.png');
+}
+.restaurant-card-dimsum .restaurant-card-img{
+    background-image: url('img/dimsum.png');
+}
+.restaurant-card-dvizhok .restaurant-card-img{
+    background-image: url('img/dvizhok.png');
+}
+.restaurant-card-nya .restaurant-card-img{
+    background-image: url('img/nya.png');
+}
+.restaurant-card-tochkadzi .restaurant-card-img{
+    background-image: url('img/tochkadzi.png');
+}
+.restaurant-card-cinnabon .restaurant-card-img{
+    background-image: url('img/cinnabon.png');
+}
+.restaurant-card-pizzelove .restaurant-card-img{
+    background-image: url('img/pizzelove.png');
+}
+.restaurant-card-zyucafe .restaurant-card-img{
+    background-image: url('img/zyucafe.png');
+}
+.restaurant-card-barbqcafe .restaurant-card-img{
+    background-image: url('img/barbqcafe.png');
+}
+
+.footer {
+    background-color: #262626;
 }
 
