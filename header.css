@@ -1,19 +1,17 @@
 
-
-.container{
-    max-width: 1043px;
-    margin: 0 auto;
-}
 .header{
     box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
     height: 72px;
-}
-
-.navbar {
-    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
 }
 
 .header .container{
+    height: 100%;
+}
+
+.navbar {
     height: 100%;
     display: flex;
     justify-content: space-between;

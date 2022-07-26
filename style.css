@@ -5,7 +5,7 @@
     border-bottom: 1px solid #979797;
     color: #979797;
     margin-bottom: 56px;
-    margin-top: 56px;
+    margin-top: 128px;
 }
 
 .search:focus {
@@ -23,7 +23,6 @@
 
 .restaurant-card-img {
     height: 256px;
-    width: 308px;
     background-color: lightgrey;
     margin-bottom: 16px;
     background-size: cover;
@@ -88,4 +87,19 @@
 .footer {
     background-color: #262626;
 }
-
+.footer-logo {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+.footer-content {
+    padding-top: 32px;
+    padding-bottom: 55px;
+}
+.footer-app-list {
+    padding-top: 41px;
+    padding-bottom: 39px;
+}
+.footer-tech-info {
+    padding-top: 40px;
+    padding-bottom: 39px;
+}
